@@ -1,0 +1,79 @@
+.fiats{
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.fiatpic{
+    margin: 2em 1em 2em;
+}
+
+.card-img-top{
+    width: 25%;
+    margin: 1em 0 1em 1em;
+}
+
+.card-body{
+    float: right;
+    padding-left: 0 !important;
+    text-align: center;
+}
+
+.card{
+    background-color: #F4F7FF;
+} 
+
+.card-text{
+    font-size: 15px;
+}
+
+.left{
+    float: left;
+    padding-left: 1em;
+}
+
+.right{
+    float: right;
+    padding-right: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-columns {
+        column-count:2;
+    }
+    
+    .card-text{
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card-text{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .card-columns {
+            column-count:1;
+    }
+
+    .card-img-top{
+            width: 25%;
+            margin: auto;
+            padding-top: 1em;
+        }
+
+    .card-body{
+            padding: 0;
+            text-align: center;
+            margin-top: 1em;
+        }
+}
+
+@media (min-width:450px) and (max-width:575px) {
+    .card-img-top{
+        width: 25%;
+        margin: 1em 0 0 35%;
+    }
+}

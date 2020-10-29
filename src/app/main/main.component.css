@@ -1,0 +1,48 @@
+.left{
+    text-align: center;
+    margin: 0 5% 4% 5%;
+    padding-top: 2%;
+    color: black;
+}
+
+.butn {
+    margin-top: 3%;
+}
+
+.pic{
+    height: 350px;
+    border-radius: 10%;
+    margin: 1%;
+}
+
+.pics {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.pic:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+  }
+
+.indexpic{
+    width: 80%;
+    display: block;
+    margin: 10em auto 10em;
+    border-radius: 15px;
+}
+
+.devices{
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.devicespic{
+   width: 50%;
+}
+
+a{
+    margin: 1em;
+}

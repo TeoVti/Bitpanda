@@ -1,0 +1,22 @@
+<div class="fiats">
+    <h2>Use EUR, CHF, GBP or USD to pay or cash out</h2>
+    <span *ngFor="let fiat of fiats">
+        <img class="fiatpic" src={{fiat.attributes.logo}}>
+    </span>
+</div>
+
+<div class="container">
+    <div class="card-columns">
+        <div class="card" *ngFor="let item of items">
+            <img class="card-img-top" src={{item.attributes.logo}} alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">{{ item.attributes.symbol }}</h4>
+                <p class="card-text">{{item.attributes.name}}</p>
+            </div>
+            <div class="price">
+                <h5 class="left">Price</h5>
+                <h5 class="right">{{item.attributes.avg_price}} €</h5>
+            </div>
+        </div>
+    </div>
+</div>

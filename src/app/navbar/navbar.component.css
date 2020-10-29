@@ -1,0 +1,36 @@
+.navbar {
+    background-color: white;
+    opacity: 0.9;
+    padding-right: 4%;
+    border: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    text-align: right;
+}
+
+a.nav-link:hover {
+    border-bottom:3px solid #fff;
+    line-height: 20px;  
+}
+
+.btn-success{
+    border-radius: 10%;
+    color: white !important; 
+}
+
+@media screen and (max-width: 992px) {
+    .nav-item {
+        margin-left: auto;
+ }
+}
+
+.navbar img{
+    opacity: 1;
+}
